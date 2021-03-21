@@ -11,8 +11,8 @@
     <color name="utility_module_white_light">#ffffff</color>
     <color name="utility_module_white_dark">#000000</color>
 
-    <color name="utility_module_white_transparent_light">#40ffffff</color>
-    <color name="utility_module_white_transparent_dark">#40000000</color>
+    <color name="utility_module_white_transparent_light">#70ffffff</color>
+    <color name="utility_module_white_transparent_dark">#70000000</color>
 
     <color name="utility_module_black_light">#000000</color>
     <color name="utility_module_black_dark">#ffffff</color>
