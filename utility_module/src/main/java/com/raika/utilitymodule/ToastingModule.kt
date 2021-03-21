@@ -12,7 +12,20 @@ fun Activity.toasting(message: String) {
     val text: MaterialTextView = layout.findViewById(R.id.tv_utility_module_toasting_root)
     text.text = message
     with (Toast(this)) {
-        setGravity(Gravity.CENTER_VERTICAL or Gravity.BOTTOM, 0, 10)
+        setGravity(Gravity.CENTER_VERTICAL or Gravity.BOTTOM, 0, 50)
+        duration = Toast.LENGTH_SHORT
+        view = layout
+        show()
+    }
+}
+
+fun Activity.toastingLong(message: String) {
+    val inflater = this.layoutInflater
+    val layout: ViewGroup = inflater.inflate(R.layout.utility_module_toasting, null) as ViewGroup
+    val text: MaterialTextView = layout.findViewById(R.id.tv_utility_module_toasting_root)
+    text.text = message
+    with (Toast(this)) {
+        setGravity(Gravity.CENTER_VERTICAL or Gravity.BOTTOM, 0, 50)
         duration = Toast.LENGTH_LONG
         view = layout
         show()
