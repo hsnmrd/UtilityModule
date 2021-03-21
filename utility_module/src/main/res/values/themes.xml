@@ -9,11 +9,11 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
 
         <item name="utility_module_white">@color/utility_module_white_light</item>
+        <item name="utility_module_white_transparent">@color/utility_module_white_transparent_light</item>
         <item name="utility_module_black">@color/utility_module_black_light</item>
         <item name="utility_module_transparent">@color/utility_module_transparent_light</item>
         <item name="utility_module_purple">@color/utility_module_transparent_light</item>
         <item name="utility_module_orange">@color/utility_module_orange_light</item>
-
 
     </style>
 </resources>

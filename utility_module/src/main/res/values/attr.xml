@@ -3,6 +3,7 @@
 
     <attr name="utility_module_transparent" format="color"/>
     <attr name="utility_module_white" format="color"/>
+    <attr name="utility_module_white_transparent" format="color"/>
     <attr name="utility_module_black" format="color"/>
     <attr name="utility_module_purple" format="color"/>
     <attr name="utility_module_orange" format="color"/>

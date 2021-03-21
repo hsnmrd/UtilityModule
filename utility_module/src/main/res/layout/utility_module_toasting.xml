@@ -8,7 +8,7 @@
     app:cardCornerRadius="15dp"
     app:contentPadding="13dp"
     app:cardElevation="0dp"
-    app:cardBackgroundColor="?attr/utility_module_white">
+    app:cardBackgroundColor="?attr/utility_module_white_transparent">
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv_utility_module_toasting_root"
