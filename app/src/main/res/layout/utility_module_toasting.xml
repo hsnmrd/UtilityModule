@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/Theme.UtilityModule"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="10dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="?attr/utility_module_white">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_utility_module_toasting_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fontFamily="@font/regular"
+        android:textColor="?attr/utility_module_black"/>
+
+</com.google.android.material.card.MaterialCardView>
