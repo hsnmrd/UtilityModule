@@ -5,8 +5,8 @@
     android:theme="@style/Theme.UtilityModule"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:cardCornerRadius="10dp"
-    app:contentPadding="10dp"
+    app:cardCornerRadius="15dp"
+    app:contentPadding="13dp"
     app:cardElevation="0dp"
     app:cardBackgroundColor="?attr/utility_module_white">
 
@@ -14,7 +14,8 @@
         android:id="@+id/tv_utility_module_toasting_root"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:fontFamily="@font/regular"
+        android:textSize="@dimen/_10sdp"
+        app:fontFamily="@font/utility_module_regular"
         android:textColor="?attr/utility_module_black"/>
 
 </com.google.android.material.card.MaterialCardView>

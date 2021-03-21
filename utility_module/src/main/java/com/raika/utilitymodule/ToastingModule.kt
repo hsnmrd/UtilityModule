@@ -12,7 +12,7 @@ fun Activity.toasting(message: String) {
     val text: MaterialTextView = layout.findViewById(R.id.tv_utility_module_toasting_root)
     text.text = message
     with (Toast(this)) {
-        setGravity(Gravity.CENTER_VERTICAL and Gravity.BOTTOM, 0, 0)
+        setGravity(Gravity.CENTER_VERTICAL or Gravity.BOTTOM, 0, 10)
         duration = Toast.LENGTH_LONG
         view = layout
         show()
