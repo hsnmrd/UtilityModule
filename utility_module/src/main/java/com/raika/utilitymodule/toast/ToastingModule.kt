@@ -1,10 +1,11 @@
-package com.raika.utilitymodule
+package com.raika.utilitymodule.toast
 
 import android.app.Activity
 import android.view.Gravity
 import android.view.ViewGroup
 import android.widget.Toast
 import com.google.android.material.textview.MaterialTextView
+import com.raika.utilitymodule.R
 
 fun Activity.toasting(message: String) {
     val inflater = this.layoutInflater
