@@ -8,7 +8,7 @@ import com.raika.utilitymodule.R
 
 class ResAttributeModule(private val context: Context, private val attr: Int) {
     
-    private fun getColor(): Int {
+    fun getColor(): Int {
         val attrs = intArrayOf(attr)
         val typedArray = context.obtainStyledAttributes(attrs)
         val color = typedArray.getColor(0, ContextCompat.getColor(context, R.color.utility_module_black_light))
